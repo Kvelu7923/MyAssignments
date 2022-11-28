@@ -8,7 +8,6 @@ public class Atm {
 	
 	public static void main(String[] args) {
 		System.out.println("Welcome To Our ATM");
-		System.out.println("Select Language");
 		System.out.println("Enter Your PIN");
 		Scanner scan=new Scanner(System.in);		
 		int a = scan.nextInt();
@@ -21,6 +20,7 @@ public class Atm {
 			System.out.println("Wrong PIN");
 			System.out.println("Try Again");
 		}
+		
 		int c =1000;
 		int b = scan.nextInt();
 		int sum =c-b;
